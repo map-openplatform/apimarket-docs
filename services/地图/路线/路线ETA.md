@@ -30,7 +30,8 @@ Result：
 请求：
 ``` shell
 curl -X GET \
-  'https://mapapi-routes.apigw-gz.didiyunapi.com/api/v1/routeeta?route=116.358529,39.954762|116.359591,39.954343|116.360804,39.954408'
+  'https://mapapi-routes.apigw-gz.didiyunapi.com/api/v1/routeeta?route=116.358529,39.954762|116.359591,39.954343|116.360804,39.954408'\
+  --header 'Authorization: AppCode XXX'
 ```
 输出：
 ``` json
